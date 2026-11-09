@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=75", "wheel>=0.45"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hookharness"
+version = "0.1.0"
+description = "A local-first webhook signing, delivery, and replay test harness."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{name = "Trat1100"}]
+dependencies = []
+
+[project.scripts]
+hookharness = "hookharness.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["hookharness*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

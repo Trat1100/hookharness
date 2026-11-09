@@ -1,0 +1,9 @@
+{
+  "event": "order.created",
+  "id": "evt_demo_0001",
+  "created_at": "2026-01-01T12:00:00Z",
+  "data": {
+    "order_id": "order_demo_0001",
+    "status": "pending"
+  }
+}
