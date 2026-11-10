@@ -1,5 +1,11 @@
 # HookHarness
 
+## Live demo
+
+![HookHarness actual command-line output](docs/screenshots/hookharness-live-demo.svg)
+
+Local end-to-end run using synthetic order JSON and a loopback receiver. No request is sent to a third-party service.
+
 HookHarness is a local-first command-line tool for testing webhook signatures, endpoint responses, retries, and replay handling with synthetic JSON events.
 
 ## What it does
